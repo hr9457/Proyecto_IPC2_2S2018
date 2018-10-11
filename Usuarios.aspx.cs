@@ -21,4 +21,9 @@ public partial class Usuarios : System.Web.UI.Page
     {
         Response.Redirect("Asignacion.aspx");
     }
+
+    protected void btnVerCursos_Click(object sender, EventArgs e)
+    {
+
+    }
 }

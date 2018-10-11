@@ -4,7 +4,7 @@
     <table style="width: 100%">
         <tr>
             <td>
-                <asp:Label ID="lbTitulo" runat="server" Text="Asignacion de Cursos"></asp:Label>
+                <asp:Label ID="lbTitulo" runat="server" Text="Asignacion de Cursos" Font-Bold="True" Font-Size="Large"></asp:Label>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -18,7 +18,7 @@
         </tr>
         <tr>
             <td style="height: 20px">
-                <asp:Label ID="lbCodigoCurso" runat="server" Text="Selecione el codigo del Curso"></asp:Label>
+                <asp:Label ID="lbCodigoCurso" runat="server" Text="Selecione el codigo del Curso" Font-Bold="True" Font-Size="Large"></asp:Label>
             </td>
             <td style="height: 20px">
                 <asp:ListBox ID="ListBox1" runat="server" DataSourceID="SqlDataSource1" DataTextField="cod_curso" DataValueField="cod_curso" Height="47px" Width="115px"></asp:ListBox>
@@ -29,31 +29,31 @@
         </tr>
         <tr>
             <td>
-                <asp:Label ID="lbUsuario" runat="server" Text=""></asp:Label>
+                <asp:Label ID="lbUsuario" runat="server" Text="" Font-Bold="True" Font-Size="Large"></asp:Label>
             </td>
             <td>
-                <asp:Button ID="btnAgregar" runat="server" Text="AgregarCurso" OnClick="btnAgregar_Click" Height="33px" Width="189px" />
-            </td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td>&nbsp;</td>
-            <td>
-                <asp:Button ID="btnRegresar" runat="server" Text="Regresar" OnClick="btnRegresar_Click" Width="194px" />
+                <asp:Button ID="btnAgregar" runat="server" Text="AgregarCurso" OnClick="btnAgregar_Click" Height="33px" Width="189px"  Font-Bold="True" Font-Size="Large"/>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
             <td>
-                <asp:Label ID="lbMensaje" runat="server" Text=""></asp:Label>
+                <asp:Button ID="btnRegresar" runat="server" Text="Regresar" OnClick="btnRegresar_Click" Width="194px"  Font-Bold="True" Font-Size="Large"/>
+            </td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>
+                <asp:Label ID="lbMensaje" runat="server" Text="" Font-Bold="True" Font-Size="Large"></asp:Label>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
